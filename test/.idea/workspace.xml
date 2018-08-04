@@ -24,8 +24,8 @@
       <file leaf-file-name="test2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="15" selection-start-line="15" selection-end-line="16" />
+            <state relative-caret-position="-300">
+              <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
               <folding>
                 <element signature="docComment;class#test2#0" />
                 <element signature="e#193#194#0" expanded="true" />
@@ -38,11 +38,10 @@
       <file leaf-file-name="test3.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="34" column="40" lean-forward="true" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+            <state relative-caret-position="865">
+              <caret line="50" column="8" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="docComment;class#test3#0" />
               </folding>
             </state>
           </provider>
@@ -77,7 +76,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="639" />
     <option name="y" value="1" />
     <option name="width" value="697" />
@@ -117,6 +116,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\test" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -129,7 +133,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.test3">
+  <component name="RunManager" selected="Application.test2">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -193,9 +197,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test2" />
         <item itemvalue="Application.test3" />
         <item itemvalue="Application.test1" />
-        <item itemvalue="Application.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -211,15 +215,15 @@
       <updated>1533280473845</updated>
       <workItem from="1533280479224" duration="2236000" />
       <workItem from="1533292717678" duration="34000" />
-      <workItem from="1533345558544" duration="14312000" />
+      <workItem from="1533345558544" duration="16260000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16582000" />
+    <option name="totallyTimeSpent" value="18530000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -231,12 +235,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32283464" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2031496" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.068814054" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09956076" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -290,10 +294,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/function/BiConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Documents/Tencent Files/821024219/FileRecv/test3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="54" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="54" />
+        <state relative-caret-position="400">
+          <caret line="52" column="5" lean-forward="true" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -302,8 +313,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="15" selection-start-line="15" selection-end-line="16" />
+        <state relative-caret-position="-300">
+          <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
           <folding>
             <element signature="docComment;class#test2#0" />
             <element signature="e#193#194#0" expanded="true" />
@@ -312,20 +323,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/function/BiConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="34" column="40" lean-forward="true" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+        <state relative-caret-position="865">
+          <caret line="50" column="8" lean-forward="true" selection-start-line="50" selection-start-column="8" selection-end-line="50" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;class#test3#0" />
           </folding>
         </state>
       </provider>
