@@ -36,7 +36,7 @@ public class test {
             for (int i = 0; i <a; i++) {
                 list.add((int) (Math.random() * 48)+1);
             }
-            System.out.print("幸运的同学编号为=>"+"  ");
+            System.out.print("幸运的同学编号为往后余生 =>"+"  ");
             for (Integer inte: list){
                 System.out.print(inte+1+" ");
             }
