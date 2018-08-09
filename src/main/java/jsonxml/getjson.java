@@ -51,7 +51,7 @@ public class getjson {
                 System.out.println("  "+jsonArray.get(i).toString());
             }
         }
-
+      //rtty
         }
 
 }
