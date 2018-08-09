@@ -4,6 +4,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.XML;
 
+
 import javax.annotation.Resource;
 import java.io.*;
 /**
@@ -21,12 +22,13 @@ public class json {
     }
 
     /*读取xml信息，并转化成json格式*/
-    public static String xmlandjson () throws  JSONException,IOException{
-        //前面要加"/"
+    public static String xmlandjson () throws JSONException, IOException{
         InputStream in = json.class.getResourceAsStream("/NBA.xml");
-        String xml =IOUtils.toString(in);
-        JSONObject xmlObject = XML.toJSONObject(xml);
-        return xmlObject.toString();
+        String xml = IOUtils.toString(in);
+        JSONObject xmljson = XML.toJSONObject(xml);
+        return xmljson.toString();
+
+
     }
 
     /*创建文件xml.txt并把json数据写入*/
@@ -53,5 +55,6 @@ public class json {
         }
         br.close();
         System.out.println(stb.toString());
+
     }
 }

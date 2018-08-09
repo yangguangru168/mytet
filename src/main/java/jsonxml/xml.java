@@ -31,18 +31,14 @@ public class xml {
         Element root = dom.addElement("湖人队");
         //
         Element player = root.addElement("coach");
-        player.addElement("1").addText("詹姆斯");
-        player.addElement("2").addText("隆多");
-        Element player_s = player.addElement("Player");
-        Element player_x = player_s.addElement("耐克鞋");
-        player_x.addText("詹15代战靴");
-        Element player_y = player_s.addElement("耐克衣服");
-        player_y.addText("湖人球衣");
-        Element player_qx = player_s.addElement("Adidas");
-        player_qx.addText("Adidas战靴");
-        Element player_yy = player_s.addElement("Adidas衣服");
-        player_yy.addText("Adidas湖人球衣");
-
+        player.addElement("name").addText("詹姆斯");
+        player.addElement("name ").addText("隆多");
+        player.addElement("player").addText("韦德");
+        player.addElement("player ").addText("杜兰特");
+        player.addElement("cc").addText("利拉德");
+        player.addElement("cc ").addText("安东尼");
+        player.addElement("sf").addText("保罗");
+        player.addElement("sf ").addText("哈登");
         return dom;
     }
 }
