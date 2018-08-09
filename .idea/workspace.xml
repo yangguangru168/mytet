@@ -153,7 +153,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -345,9 +345,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.getjson" />
-        <item itemvalue="Application.sqlmain" />
         <item itemvalue="Application.json" />
         <item itemvalue="Application.xml" />
+        <item itemvalue="Application.sqlmain" />
         <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
