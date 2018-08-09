@@ -42,7 +42,6 @@ public class xml {
         player_qx.addText("Adidas战靴");
         Element player_yy = player_s.addElement("Adidas衣服");
         player_yy.addText("Adidas湖人球衣");
-
         return dom;
     }
 }

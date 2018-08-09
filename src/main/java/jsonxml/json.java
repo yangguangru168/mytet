@@ -23,25 +23,36 @@ public class json {
     /*读取xml信息，并转化成json格式*/
     public static String xmlandjson () throws  JSONException,IOException{
         //前面要加"/"
-        InputStream in = json.class.getResourceAsStream("/NBA.xml");
+        InputStream in = json.class.getResourceAsStream("/NBA.xml");//注意在target文件夹中要存在NBA.xml否则报错
         String xml =IOUtils.toString(in);
         JSONObject xmlObject = XML.toJSONObject(xml);
+        System.out.println(xmlObject.get("湖人队"));
         return xmlObject.toString();
     }
 
     /*创建文件xml.txt并把json数据写入*/
     public static void outContent(String str) throws IOException{
+        //创建文件xml.txt
         File file =new File("xml.txt");
         file.createNewFile();
-        FileWriter fw = new FileWriter(file);
-        BufferedWriter bw = new BufferedWriter(fw);
-        bw.write(str);
-        bw.flush();
+        //输出流输出到xml.txt文件
+        FileOutputStream fo= new FileOutputStream("xml.txt");
+        //输入流。从那个文件获取数据
+        FileInputStream fi = new FileInputStream("NBA.xml");
+        InputStreamReader ip = new InputStreamReader(fi);
+        OutputStreamWriter ow = new OutputStreamWriter(fo);
+        BufferedReader br = new BufferedReader(ip);
+        //BufferedWriter bw = new BufferedWriter(fw);
+        PrintWriter bw = new PrintWriter(ow,true);
+        String s =null;
+        while ((s=br.readLine())!=null){
+            bw.println(s);//把内容写入
+        }
         bw.close();
-        fw.close();
+        ow.close();
     }
 
-    /*读取文件数据*/
+    /*以行为单位读取文件内容，一次读一整行，读取文件数据*/
     public static void getxml() throws IOException{
         File file = new File("xml.txt");
         FileReader rd = new FileReader(file);
@@ -52,6 +63,6 @@ public class json {
             stb.append(s);
         }
         br.close();
-        System.out.println(stb.toString());
+        System.out.println("读取=》"+stb.toString());
     }
 }
