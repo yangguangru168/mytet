@@ -26,7 +26,7 @@ public class getjson {
         StringBuilder sb = new StringBuilder();
         String s =null;
         while ((s=br.readLine())!=null){
-            sb.append(s);
+            sb.append(s);//
         }
         br.close();
         isr.close();
