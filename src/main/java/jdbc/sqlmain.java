@@ -11,7 +11,7 @@ public class sqlmain {
     public static void main(String[] args) throws Exception {
         method f = new method();
         //System.out.println(f.insert());
-       // f.getall();
-        f.delect();
+        f.getall();
+        //f.delect();
     }
 }

@@ -1,9 +1,10 @@
 package jdbc;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
+import java.sql.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * @author 杨光儒
@@ -37,15 +38,21 @@ public class method {
         conn.close();
         return i;
     }
-    public void getall() throws Exception{
+    public List getall() throws Exception{
         Connection conn = getConn();
         String sql = "select*from study";
         PreparedStatement pstmt = conn.prepareStatement(sql);
         ResultSet rs = pstmt.executeQuery();
+        List list =new ArrayList();
         while (rs.next()){
+            System.out.println(rs.getInt("userid")+"........."+rs.getString("username"));
+            for (int i = 1; i <=3; i++) {
+                list.add(rs.getString(i));
+            }
             System.out.println(rs.getString(1)+"  "+rs.getString(2)+"  "+rs.getString(3));
         }
         conn.close();
+        return list;
     }
     public void delect () throws Exception{
         conn = getConn();
